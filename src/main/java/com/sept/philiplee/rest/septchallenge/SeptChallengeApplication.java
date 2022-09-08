@@ -1,4 +1,4 @@
-package com.example.septchallenge;
+package com.sept.philiplee.rest.septchallenge;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
