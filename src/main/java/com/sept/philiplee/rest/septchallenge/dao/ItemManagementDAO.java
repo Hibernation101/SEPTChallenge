@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import com.sept.philiplee.rest.septchallenge.model.Item;
 
 public class ItemManagementDAO {
+    //Array List Methods for Placeholder DAO Items
     private ArrayList<Item> arrItemList = new ArrayList<Item>();
     public ArrayList<Item> getItemList() {
         return arrItemList;

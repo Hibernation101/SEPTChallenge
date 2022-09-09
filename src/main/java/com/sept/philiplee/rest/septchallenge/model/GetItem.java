@@ -3,6 +3,7 @@ package com.sept.philiplee.rest.septchallenge.model;
 import java.util.ArrayList;
 
 public class GetItem {
+    //Get Individual Item Information
     public String getItemID(Item item){
         String foundID = item.getId();
         return foundID;

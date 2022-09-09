@@ -5,6 +5,7 @@ import com.sept.philiplee.rest.septchallenge.dao.ItemManagementDAO;
 import java.util.ArrayList;
 
 public class GetItemList {
+    //Get Items from ArrayList
     private ArrayList<Item> arrItemList;
     public void setList(ArrayList<Item> arr) {
         this.arrItemList = arr;

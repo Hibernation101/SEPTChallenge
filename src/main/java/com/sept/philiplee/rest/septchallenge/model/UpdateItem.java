@@ -1,6 +1,7 @@
 package com.sept.philiplee.rest.septchallenge.model;
 
 public class UpdateItem {
+    //Update Item Information
     public void updateID(Item item, String id) {
         item.setId(id);
     }
