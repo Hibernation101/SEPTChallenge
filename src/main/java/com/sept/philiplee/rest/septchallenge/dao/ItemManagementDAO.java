@@ -5,6 +5,9 @@ import com.sept.philiplee.rest.septchallenge.model.Item;
 
 public class ItemManagementDAO {
     private ArrayList<Item> arrItemList = new ArrayList<Item>();
+    public ArrayList<Item> getItemList() {
+        return arrItemList;
+    }
 
     public void save(Item item){
         arrItemList.add(item);

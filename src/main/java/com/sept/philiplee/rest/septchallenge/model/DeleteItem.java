@@ -1,13 +1,13 @@
 package com.sept.philiplee.rest.septchallenge.model;
 
+import com.sept.philiplee.rest.septchallenge.dao.ItemManagementDAO;
+
+import java.util.ArrayList;
+
 public class DeleteItem {
     public void deleteItem(Item item){
-        for(int i = 0; i < ItemManagementDAO.arrItemList.length() - 1; i++) {
-            if (ItemManagementDAO.arrItemList[i] == item) {
-                ItemManagementDAO.arrItemList.remove(i);
-                break;
-            }
-        }
+        ItemManagementDAO dao = new ItemManagementDAO();
+        dao.delete(item);
         item = null;
     }
 }
